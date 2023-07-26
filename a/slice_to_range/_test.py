@@ -1,5 +1,4 @@
-from pytest import raises
-
+from a import abbrev_testing as abbrev
 from a import slice_to_range
 
 
@@ -9,11 +8,10 @@ def test_foo():
     assert foo[3:10] == list(range(3, 10))
     assert foo[3:10:2] == [3, 5, 7, 9]
 
-    with raises(AssertionError):
-        foo[:]
-
-    with raises(AssertionError):
-        foo[::]
+    abbrev(AssertionError, [
+        lambda: foo[:],
+        lambda: foo[::]
+    ])
 
 
 def test_bar():

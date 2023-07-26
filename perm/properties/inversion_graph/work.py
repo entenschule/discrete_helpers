@@ -6,6 +6,7 @@ def work(self):
     graph = nx.Graph()
 
     for pair in self.inversion_set:
+        pair = tuple(sorted(pair))
         graph.add_edge(*pair)
 
     result = dict()
