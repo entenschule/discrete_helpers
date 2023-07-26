@@ -1,5 +1,8 @@
 # discrete helpers
 
+This is an example project, standing in for something like a math library.<br>
+The classes and functions defined here should be imported in other projects, for which [discrete_research](https://github.com/entenschule/discrete_research) stands in.
+
 
 ## installation
 
