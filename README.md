@@ -20,7 +20,7 @@ Select `env/bin/python` as Python interpreter for the project.
 ```
 
 
-# attempt to make library
+## attempt to make library
 
 `python setup.py sdist` has created the folders _dist_ and _discretehelpers.egg-info_.<br>
 The former contains _discretehelpers-0.0.1.tar.gz_ and the latter contains metadata.<br>
