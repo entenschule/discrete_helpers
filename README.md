@@ -24,7 +24,7 @@ pip install setuptools
 pip install twine
 ```
 
-Create [setup.py](setup.py).
+Create [_setup.py_](setup.py).
 
 ``` 
 python setup.py bdist_wheel
@@ -33,5 +33,7 @@ python setup.py bdist_wheel
 Now the library can be installed using the path to the Wheel file.
 
 ```
-pip install  /home/tilman/learn_py/discrete_helpers/dist/discretehelpers-0.0.1-py3-none-any.whl
+pip install /home/tilman/learn_py/discrete_helpers/dist/discretehelpers-0.0.1-py3-none-any.whl
 ```
+
+An effect of running _setup.py_ that seems rather pointless, is the creation of the `build` folder, which contains a copy of the whole project. But it can be safely deleted.
