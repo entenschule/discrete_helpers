@@ -14,7 +14,7 @@ me@my:~/learn_py/discrete_helpers$ source env/bin/activate
 ```
 
 
-## attempt to make library
+## create library
 
 Tutorial: [How to create a Python library](https://medium.com/analytics-vidhya/how-to-create-a-python-library-7d5aea80cc3f) (medium.com)
 
@@ -22,4 +22,16 @@ Tutorial: [How to create a Python library](https://medium.com/analytics-vidhya/h
 pip install wheel
 pip install setuptools
 pip install twine
+```
+
+Create [setup.py](setup.py).
+
+``` 
+python setup.py bdist_wheel
+```
+
+Now the library can be installed using the path to the Wheel file.
+
+```
+pip install  /home/tilman/learn_py/discrete_helpers/dist/discretehelpers-0.0.1-py3-none-any.whl
 ```

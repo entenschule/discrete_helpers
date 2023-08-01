@@ -4,5 +4,5 @@
 The order is like in the following graphic:
 
 <a href="https://commons.wikimedia.org/wiki/File:Symmetric_group_4;_permutation_list_(0-based).svg">
-    <img src="../../_img/perms_4.svg" height="600px">
+    <img src="../../../_img/perms_4.svg" height="600px">
 </a>
