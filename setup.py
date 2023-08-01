@@ -7,6 +7,6 @@ setup(
    description='library for discrete mathematics (playground version)',
    author='Watchduck',
    author_email='no@example.com',
-   packages=['a', 'perm'],
+   packages=['discretehelpers'],
    install_requires=['numpy', 'networkx']
 )
